@@ -55,7 +55,7 @@ public class Configuration {
         }
     }
 
-    public void testGit(){
+    public void HuyDaODay(){
 
     }
 }
