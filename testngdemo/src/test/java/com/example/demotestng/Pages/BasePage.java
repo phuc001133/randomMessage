@@ -20,11 +20,6 @@ public class BasePage {
         configuration = new Configuration("");
     }
 
-    public ProductDetailsPage navigateToProductByUrl(String productUrl) throws IOException {
-        _driver.navigate().to(configuration.getRunningURL() + productUrl);
-        return new ProductDetailsPage(_driver);
-    }
-
     public void OanhDaODay(){
 
     }
