@@ -24,4 +24,8 @@ public class BasePage {
         _driver.navigate().to(configuration.getRunningURL() + productUrl);
         return new ProductDetailsPage(_driver);
     }
+
+    public void OanhDaODay(){
+
+    }
 }
