@@ -54,4 +54,8 @@ public class Configuration {
                 return "";
         }
     }
+
+    public void testGit(){
+
+    }
 }
